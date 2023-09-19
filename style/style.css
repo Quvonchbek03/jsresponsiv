@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header{
+ margin: 0 auto;
+ min-width: 1440px;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+.let{
+   background-image: url(../rasm/Ellipse\ 4.png); 
+  background-repeat: no-repeat;
+}
+ul {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+nav ul  li a:hover{
+  color: rgb(111, 82, 82);
+  font-size: 25px;
+
+}
+
+ul li {
+  display: flex;
+  gap: 10px;
+}
+.nav {
+  display: flex;
+  gap: 320px;
+  align-items: center;
+  padding-top: 62px;
+
+}
+.but {
+  width: 180px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fab8c4;
+}
+span{
+  color: #2522ba;
+}
+.but button {
+  color: #2522ba;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 50px;
+  border: none;
+  background: #fab8c4;
+}
+.button {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  width: 253px;
+  margin-left: 70px;
+}
+.button img {
+  width: 32px;
+  height: 32px;
+ 
+}
+.p {
+  margin-top: 100px;
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.327%;  
+  letter-spacing: -2.4px;
+}
+.lin {
+  width: 50px;
+  height: 10px;
+  background-color: blue;
+  margin-top: 45px;
+}
+.pas{
+  margin-left: 200px;
+  position: absolute;
+  bottom: 0;
+}
+.kok {
+  display: flex;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  gap: 60px;
+
+}
+.elleps {
+  width: 50px;
+  height: 50px;
+  margin-top: 260px;
+}
+.tex {
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 378px;
+  margin-top: 24px;
+}
+.btn2 {
+  display: inline-flex;
+  padding: 29px 46px;
+  align-items: flex-end;
+  gap: 10px;
+  border-radius: 20px;
+  background: var(--color-primary, #5956e9);
+  color: white;
+}
+.ong{
+  position: relative;
+ }
+ .katta{
+  display: none;
+ }
+ .ong img {
+  margin-top: 100px;
+ }
+ .ong .aylana{
+  background-image: url(../rasm/Circle\ 7.png);
+   position: absolute; 
+   width: 150px;
+   height: 150px;
+   z-index: -1;
+   top: 120px;
+   left: 0;
+  background-repeat: no-repeat;
+}
+.but1 {
+  display: flex;
+  gap: 52px;
+  margin-top: 40px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box p {
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+header {
+  background-image: url(../rasm/Circle\ 2.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.log{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 100px;
+  margin-top:100px ;
+}
+.log p{
+  color: var(--text-grey, #999FAE);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+.pap{
+  width: 200px;
+  height: 100px;
+  background-color: #fab8c4;
+  border-radius:100px 100px 0px 0px;
+  margin-left: 800px;
+}
+
+  /* @media (min-width:1026px ){
+   header{
+   min-width:106px;
+   background-color: #2522ba;
+   background-image: url(../img/yarimkok.png);
+   background-repeat: no-repeat;
+   background-position-x: right; 
+  }
+  .opshi .manitor{
+  overflow: hidden;
+}
+
+}
+    */
+
